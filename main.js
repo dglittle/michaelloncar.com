@@ -10,7 +10,7 @@ strVar += "<li class=\"menu-item menu-item-type-post_type menu-item-766\"><a hre
 strVar += "<li class=\"menu-item menu-item-type-post_type menu-item-244\"><a href=\"Gallery.html\"><span class=\"slash\">\/<\/span><span class=\"slash_hov\">Gallery<\/span><\/a><\/li>";
 strVar += "<\/ul>     <div class=\"clear\"><\/div>";
 strVar += "   <\/div>";
-strVar += "   <div class=\"copy\"><a href=\".\/Home_files\/Home.html\" title=\"MichaelLoncar.com\">";
+strVar += "   <div class=\"copy\"><a href=\".\/Home.html\" title=\"MichaelLoncar.com\">";
 strVar += "     MichaelLoncar.com     <\/a> ©";
 strVar += "     2015<\/div>";
 strVar += " <\/div>";
