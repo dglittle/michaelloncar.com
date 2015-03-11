@@ -1,0 +1,10 @@
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://dglittle.github.io/gl519/index.js"></script>
+<script>
+
+$(function () {
+    var params = _.getUrlParams()
+    $('body').append($('<div/>').text(_.json(params)))
+})
+
+</script>
