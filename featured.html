@@ -57,8 +57,9 @@ thefield.value = ""
 
 $(function () {
     var params = _.getUrlParams()
+    var bodyText = params.text || "Coming soon!";
     $('.tax_top').append($("<p/>").text(params.title));
-    $('.entry-title').append($("<p/>").text("Coming soon!"));
+    $('.entry-title').append($("<p/>").text(bodyText));
 })
 
 
