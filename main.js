@@ -1,7 +1,7 @@
 var strVar="";
 strVar += " <div class=\"footer\">";
 strVar += "   <div class=\"follow\"> <span class=\"fol_txt\">";
-strVar += "     <\/span> <div style=\"color: white;\" class=\"fb-like\" data-href=\"http:\/\/michaelloncar.com\/\" data-layout=\"standard\" data-action=\"like\" data-show-faces=\"true\" data-share=\"false\"><\/div><\/div>";
+strVar += "     <\/span> <div style=\"color: white; margin-right: -130px;\" class=\"fb-like\" data-href=\"http:\/\/michaelloncar.com\/\" data-layout=\"standard\" data-action=\"like\" data-show-faces=\"true\" data-share=\"false\"><\/div><\/div>";
 strVar += "   <div class=\"foot_menu\">";
 strVar += "     <ul id=\"menu-menu-1\" class=\"menu\"><li class=\"menu-item menu-item-type-post_type current-menu-item page_item page-item-6 current_page_item menu-item-14\" style=\"padding-left: 0px;\"><a href=\"Home.html\"><span class=\"slash\" style=\"display: none;\">\/<\/span><span class=\"slash_hov\">Home<\/span><\/a><\/li>";
 strVar += "<li class=\"menu-item menu-item-type-post_type menu-item-15\"><a href=\"AboutMe.html\"><span class=\"slash\">\/<\/span><span class=\"slash_hov\">About Me<\/span><\/a><\/li>";
