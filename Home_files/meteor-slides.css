@@ -168,7 +168,7 @@ ul.meteor-nav li {
 
 .meteor-buttons a {
 
-	background: url('/images/buttons.png') no-repeat bottom right;
+	background: url('../images/buttons.png') no-repeat bottom right;
 
 	display: block;
 
@@ -188,7 +188,7 @@ ul.meteor-nav li {
 
 .meteor-buttons a:hover {
 
-	background: url('/images/buttons.png') no-repeat bottom left;
+	background: url('../images/buttons.png') no-repeat bottom left;
 
 }
 
@@ -196,6 +196,6 @@ ul.meteor-nav li {
 
 .meteor-buttons a.activeSlide {
 
-	background: url('/images/buttons.png') no-repeat bottom left;
+	background: url('../images/buttons.png') no-repeat bottom left;
 
 }
