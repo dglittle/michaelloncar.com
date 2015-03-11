@@ -12,7 +12,7 @@ strVar += "<\/ul>     <div class=\"clear\"><\/div>";
 strVar += "   <\/div>";
 strVar += "   <div class=\"copy\"><a href=\".\/Home_files\/Home.html\" title=\"MichaelLoncar.com\">";
 strVar += "     MichaelLoncar.com     <\/a> ©";
-strVar += "     2015      \/ <a href=\"http:\/\/michaelloncar.com\/?page_id=285\">Priacy Policy<\/a><\/div>";
+strVar += "     2015<\/div>";
 strVar += " <\/div>";
 
 $(function () {
