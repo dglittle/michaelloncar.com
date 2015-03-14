@@ -6,7 +6,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" type="text/css" media="all" href="./PokerUpFront_files/style.css">
 <link rel="pingback" href="http://michaelloncar.com/xmlrpc.php">
-<script type="text/javascript" src="./PokerUpFront_files/jquery.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<!-- <script type="text/javascript" src="./PokerUpFront_files/jquery.js"></script> -->
 <meta name="robots" content="noindex,nofollow">
 <link rel="alternate" type="application/rss+xml" title="MichaelLoncar.com » Feed" href="http://michaelloncar.com/?feed=rss2">
 <link rel="alternate" type="application/rss+xml" title="MichaelLoncar.com » Comments Feed" href="http://michaelloncar.com/?feed=comments-rss2">
@@ -14,11 +15,11 @@
 <link rel="stylesheet" id="meteor-slides-css" href="./PokerUpFront_files/meteor-slides.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-pagenavi-css" href="./PokerUpFront_files/pagenavi-css.css" type="text/css" media="all">
 <script type="text/javascript" src="./PokerUpFront_files/comment-reply.js"></script>
-<script type="text/javascript" src="./PokerUpFront_files/jquery(1).js"></script>
+<!-- <script type="text/javascript" src="./PokerUpFront_files/jquery(1).js"></script> -->
 <script type="text/javascript" src="./PokerUpFront_files/jquery.cycle.all.js"></script>
 <script type="text/javascript" src="./PokerUpFront_files/jquery.metadata.v2.js"></script>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript">
+
 /* <![CDATA[ */
 var meteorslidessettings = {
 	meteorslideshowspeed: "2000",
@@ -29,7 +30,6 @@ var meteorslidessettings = {
 };
 /* ]]> */
 </script>
-<script type="text/javascript" src="./PokerUpFront_files/slideshow.js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://michaelloncar.com/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://michaelloncar.com/wp-includes/wlwmanifest.xml"> 
 <link rel="index" title="MichaelLoncar.com" href="http://michaelloncar.com/">
@@ -39,46 +39,34 @@ var meteorslidessettings = {
 <!-- All in One SEO Pack 1.6.12.2 by Michael Torbert of Semper Fi Web Design[78,117] -->
 <link rel="canonical" href="./PokerUpFront_files/PokerUpFront.html">
 <!-- /all in one seo pack -->
-<script type="text/javascript" src="./PokerUpFront_files/jquery.jcarousel.js"></script>
-<script type="text/javascript" src="./PokerUpFront_files/js.js"></script>
+<!-- <script type="text/javascript" src="./PokerUpFront_files/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="./PokerUpFront_files/js.js"></script> -->
 <script type="text/javascript" src="main.js"></script>
   <!-- Add fancyBox main JS and CSS files -->
-  <script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
-  <link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript" src="source/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen">
 
   <!-- Add Button helper (this is optional) -->
-  <link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-  <script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css" />
+  <script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js"></script>
 
-  <!-- Add Thumbnail helper (this is optional) -->
-  <link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-  <script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css">
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js"></script>
 
-  <!-- Add Media helper (this is optional) -->
-  <script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
 <script type="text/javascript">
 
 $(document).ready(function() {
   $(".fancybox").fancybox({
-    openEffect  : 'none',
-    closeEffect : 'none'
+    helpers:  {
+        thumbs : {
+            width: 100,
+            height: 100
+        }
+    }
   });
 });
-
-/*
-Clear default form value script- by JavaScriptKit.com
-Featured on JavaScript Kit (http://javascriptkit.com)
-Visit javascriptkit.com for 400+ free scripts!
-*/
-
-function clearText(thefield){
-if (thefield.defaultValue==thefield.value)
-thefield.value = ""
-} 
-</script>
-<script type="text/javascript">
-
 /*
 Preload images script
 By JavaScript Kit (http://javascriptkit.com)
@@ -172,221 +160,221 @@ hr {display:none;}
 		<!-- Images -->
     <!-- 1-10 -->
 <a class="fancybox" rel="gallery1" href="./insta/0001.jpg">
-  <img src="./insta/0001.jpg" alt="" />
+  <img src="./insta/0001.jpg" width="300px" height="300px"/>
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0002.jpg">
-  <img src="./insta/0002.jpg" alt="" />
+  <img src="./insta/0002.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0003.jpg">
-  <img src="./insta/0003.jpg" alt="" />
+  <img src="./insta/0003.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0004.jpg">
-  <img src="./insta/0004.jpg" alt="" />
+  <img src="./insta/0004.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0005.jpg">
-  <img src="./insta/0005.jpg" alt="" />
+  <img src="./insta/0005.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0006.jpg">
-  <img src="./insta/0006.jpg" alt="" />
+  <img src="./insta/0006.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0007.jpg">
-  <img src="./insta/0007.jpg" alt="" />
+  <img src="./insta/0007.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0008.jpg">
-  <img src="./insta/0008.jpg" alt="" />
+  <img src="./insta/0008.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0009.jpg">
-  <img src="./insta/0009.jpg" alt="" />
+  <img src="./insta/0009.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0010.jpg">
-  <img src="./insta/0010.jpg" alt="" />
+  <img src="./insta/0010.jpg" width="300px" height="300px" />
 </a>
 
 <!-- 13-15 -->
 <a class="fancybox" rel="gallery1" href="./insta/0013.jpg">
-  <img src="./insta/0013.jpg" alt="" />
+  <img src="./insta/0013.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0014.jpg">
-  <img src="./insta/0014.jpg" alt="" />
+  <img src="./insta/0014.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0015.jpg">
-  <img src="./insta/0015.jpg" alt="" />
+  <img src="./insta/0015.jpg" width="300px" height="300px" />
 </a>
 
 <!-- 17-25 -->
 <a class="fancybox" rel="gallery1" href="./insta/0017.jpg">
-  <img src="./insta/0017.jpg" alt="" />
+  <img src="./insta/0017.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0018.jpg">
-  <img src="./insta/0018.jpg" alt="" />
+  <img src="./insta/0018.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0019.jpg">
-  <img src="./insta/0019.jpg" alt="" />
+  <img src="./insta/0019.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0020.jpg">
-  <img src="./insta/0020.jpg" alt="" />
+  <img src="./insta/0020.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0021.jpg">
-  <img src="./insta/0021.jpg" alt="" />
+  <img src="./insta/0021.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0022.jpg">
-  <img src="./insta/0022.jpg" alt="" />
+  <img src="./insta/0022.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0023.jpg">
-  <img src="./insta/0023.jpg" alt="" />
+  <img src="./insta/0023.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0024.jpg">
-  <img src="./insta/0024.jpg" alt="" />
+  <img src="./insta/0024.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0025.jpg">
-  <img src="./insta/0025.jpg" alt="" />
+  <img src="./insta/0025.jpg" width="300px" height="300px" />
 </a>
 
 <!-- 27-42 -->
 <a class="fancybox" rel="gallery1" href="./insta/0027.jpg">
-  <img src="./insta/0027.jpg" alt="" />
+  <img src="./insta/0027.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0028.jpg">
-  <img src="./insta/0028.jpg" alt="" />
+  <img src="./insta/0028.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0029.jpg">
-  <img src="./insta/0029.jpg" alt="" />
+  <img src="./insta/0029.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0030.jpg">
-  <img src="./insta/0030.jpg" alt="" />
+  <img src="./insta/0030.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0031.jpg">
-  <img src="./insta/0031.jpg" alt="" />
+  <img src="./insta/0031.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0032.jpg">
-  <img src="./insta/0032.jpg" alt="" />
+  <img src="./insta/0032.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0033.jpg">
-  <img src="./insta/0033.jpg" alt="" />
+  <img src="./insta/0033.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0034.jpg">
-  <img src="./insta/0034.jpg" alt="" />
+  <img src="./insta/0034.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0035.jpg">
-  <img src="./insta/0035.jpg" alt="" />
+  <img src="./insta/0035.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0036.jpg">
-  <img src="./insta/0036.jpg" alt="" />
+  <img src="./insta/0036.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0037.jpg">
-  <img src="./insta/0037.jpg" alt="" />
+  <img src="./insta/0037.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0038.jpg">
-  <img src="./insta/0038.jpg" alt="" />
+  <img src="./insta/0038.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0039.jpg">
-  <img src="./insta/0039.jpg" alt="" />
+  <img src="./insta/0039.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0040.jpg">
-  <img src="./insta/0040.jpg" alt="" />
+  <img src="./insta/0040.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0041.jpg">
-  <img src="./insta/.0041jpg" alt="" />
+  <img src="./insta/0041.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0042.jpg">
-  <img src="./insta/0042.jpg" alt="" />
+  <img src="./insta/0042.jpg" width="300px" height="300px" />
 </a>
 
 <!-- 44-52 -->
 <a class="fancybox" rel="gallery1" href="./insta/0044.jpg">
-  <img src="./insta/0044.jpg" alt="" />
+  <img src="./insta/0044.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0045.jpg">
-  <img src="./insta/0045.jpg" alt="" />
+  <img src="./insta/0045.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0046.jpg">
-  <img src="./insta/0046.jpg" alt="" />
+  <img src="./insta/0046.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0047.jpg">
-  <img src="./insta/0047.jpg" alt="" />
+  <img src="./insta/0047.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0048.jpg">
-  <img src="./insta/0048.jpg" alt="" />
+  <img src="./insta/0048.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0049.jpg">
-  <img src="./insta/0049.jpg" alt="" />
+  <img src="./insta/0049.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0050.jpg">
-  <img src="./insta/0050.jpg" alt="" />
+  <img src="./insta/0050.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0051.jpg">
-  <img src="./insta/0051.jpg" alt="" />
+  <img src="./insta/0051.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0052.jpg">
-  <img src="./insta/0052.jpg" alt="" />
+  <img src="./insta/0052.jpg" width="300px" height="300px" />
 </a>
 
 <!-- 55-61 -->
 <a class="fancybox" rel="gallery1" href="./insta/0055.jpg">
-  <img src="./insta/0055.jpg" alt="" />
+  <img src="./insta/0055.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0056.jpg">
-  <img src="./insta/0056.jpg" alt="" />
+  <img src="./insta/0056.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0057.jpg">
-  <img src="./insta/0057.jpg" alt="" />
+  <img src="./insta/0057.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0058.jpg">
-  <img src="./insta/0058.jpg" alt="" />
+  <img src="./insta/0058.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0059.jpg">
-  <img src="./insta/0059.jpg" alt="" />
+  <img src="./insta/0059.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0060.jpg">
-  <img src="./insta/0060.jpg" alt="" />
+  <img src="./insta/0060.jpg" width="300px" height="300px" />
 </a>
 <a class="fancybox" rel="gallery1" href="./insta/0061.jpg">
-  <img src="./insta/0061.jpg" alt="" />
+  <img src="./insta/0061.jpg" width="300px" height="300px" />
 </a>
 
 <!-- misc -->
 <a class="fancybox" rel="gallery1" href="./insta/0063.jpg">
-  <img src="./insta/0063.jpg" alt="" />
+  <img src="./insta/0063.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0064.jpg">
-  <img src="./insta/0064.jpg" alt="" />
+  <img src="./insta/0064.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0071.jpg">
-  <img src="./insta/0071.jpg" alt="" />
+  <img src="./insta/0071.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0074.jpg">
-  <img src="./insta/0074.jpg" alt="" />
+  <img src="./insta/0074.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0076.jpg">
-  <img src="./insta/0076.jpg" alt="" />
+  <img src="./insta/0076.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0080.jpg">
-  <img src="./insta/0080.jpg" alt="" />
+  <img src="./insta/0080.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0086.jpg">
-  <img src="./insta/0086.jpg" alt="" />
+  <img src="./insta/0086.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0091.jpg">
-  <img src="./insta/0091.jpg" alt="" />
+  <img src="./insta/0091.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0093.jpg">
-  <img src="./insta/0093.jpg" alt="" />
+  <img src="./insta/0093.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0125.jpg">
-  <img src="./insta/0125.jpg" alt="" />
+  <img src="./insta/0125.jpg" width="300px" height="300px" />
 </a>
 
 <a class="fancybox" rel="gallery1" href="./insta/0140.jpg">
-  <img src="./insta/0140.jpg" alt="" />
+  <img src="./insta/0140.jpg" width="300px" height="300px" />
 </a>
 
     <!-- End Images -->
